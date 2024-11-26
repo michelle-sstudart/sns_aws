@@ -1,0 +1,2 @@
+echo "boto3_env/" > .gitignore
+.vscode/
