@@ -44,7 +44,7 @@ if __name__ == "__main__":
     
 # Criar assinatura com filtro e-mail
 
-email = "albuquerquem22@gmail.com"
+email = "email@mail.com"
 email_filter_policy = '{"type": ["email"]}'
 subscribe_to_topic(topic_arn, "email", email, email_filter_policy)
 
@@ -55,7 +55,7 @@ test_message = '{"type": "email", "content": "Mensagem para email"}'
 
 # Criar assinatura com filtro sms
     
-sms = "+5585992201010"  
+sms = "+550001234560"  
 sms_filter_policy = '{"type": ["sms"]}'    
 subscribe_to_topic(topic_arn, "sms", sms, sms_filter_policy)
 
